@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuieroPizza.Web", "QuieroPizza.Web\QuieroPizza.Web.csproj", "{1804A2C6-6667-4AB8-9A95-372B64653A4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuieroPizza.WebAdmin", "QuieroPizza.WebAdmin\QuieroPizza.WebAdmin.csproj", "{8CDD8EAC-EB81-4A2D-9A09-1090ED5738D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuieroPizza.Win", "QuieroPizza.Win\QuieroPizza.Win.csproj", "{2BBEBEEF-1E78-4C99-8F30-40B4DE54FA93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1804A2C6-6667-4AB8-9A95-372B64653A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1804A2C6-6667-4AB8-9A95-372B64653A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1804A2C6-6667-4AB8-9A95-372B64653A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CDD8EAC-EB81-4A2D-9A09-1090ED5738D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDD8EAC-EB81-4A2D-9A09-1090ED5738D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDD8EAC-EB81-4A2D-9A09-1090ED5738D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDD8EAC-EB81-4A2D-9A09-1090ED5738D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBEBEEF-1E78-4C99-8F30-40B4DE54FA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBEBEEF-1E78-4C99-8F30-40B4DE54FA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBEBEEF-1E78-4C99-8F30-40B4DE54FA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBEBEEF-1E78-4C99-8F30-40B4DE54FA93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
