@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuieroPiza.BL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,12 @@ namespace QuieroPizza.Win
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola");
+            var productosBL = new ProductosBL();
+            var listadeproductos = productosBL.ObtenerProducto();
+            foreach (var producto in listadeproductos)
+            {
+                MessageBox.Show(producto.Descripcion);
+            }
         }
     }
 }
